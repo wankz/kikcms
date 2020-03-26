@@ -255,4 +255,12 @@ class TestHelper extends TestCase
     {
         return dirname(__DIR__) . '/TestSitePath/';
     }
+
+    /**
+     * Set test path
+     */
+    public function getTestPath()
+    {
+        return dirname(__DIR__) . '/';
+    }
 }
